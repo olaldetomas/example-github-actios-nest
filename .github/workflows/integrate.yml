@@ -13,7 +13,7 @@ jobs:
       - name: Install dependencies
         uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '16.15.0'
       - run: npm ci
       - run: npm run test
       - run: npm run build
